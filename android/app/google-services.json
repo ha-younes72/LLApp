@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "448126253519",
+    "firebase_url": "https://leafletappnotification.firebaseio.com",
+    "project_id": "leafletappnotification",
+    "storage_bucket": "leafletappnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448126253519:android:c640bcc241ca5135",
+        "android_client_info": {
+          "package_name": "com.leafletv2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeWQCojpE6ro6ZxYc8khPQA4Tc9RDw5TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448126253519-rh5iirm339b9rg4h8bieeihotqleijek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

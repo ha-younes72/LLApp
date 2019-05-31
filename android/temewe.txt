@@ -1,0 +1,323 @@
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+registerResGeneratingTask is deprecated, use registerGeneratedResFolders(FileCollection)
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+downloadRobolectricDependencies into /home/younes/Projects/LeafLetV2/android/build/robolectric-3.5.1-dependencies
+WARNING: The specified Android SDK Build Tools version (27.0.3) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '27.0.3'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+WARNING: The specified Android SDK Build Tools version (28.0.2) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.2.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+_internal_aapt2_binary - The AAPT2 binary to use for processing resources.
+\--- com.android.tools.build:aapt2:3.2.1-4818971
+
+androidApis - Configuration providing various types of Android JAR file
+No dependencies
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApk - Apk dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApk - Apk dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+apk - Apk dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+No dependencies
+
+debugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: debugAndroidTest
+No dependencies
+
+debugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: debugAndroidTest
++--- project :react-native-push-notification
++--- project :react-native-camera
++--- project :react-native-action-sheet
++--- project :react-native-view-overflow
++--- project :react-native-vector-icons
++--- project :react-native-linear-gradient
++--- project :react-native-config
++--- com.android.support:appcompat-v7:28.0.0
+|    +--- com.android.support:support-annotations:28.0.0
+|    +--- com.android.support:support-compat:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:collections:28.0.0
+|    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    +--- android.arch.lifecycle:runtime:1.1.1
+|    |    |    +--- android.arch.lifecycle:common:1.1.1
+|    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    +--- android.arch.core:common:1.1.1
+|    |    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    \--- com.android.support:versionedparcelable:28.0.0
+|    |         +--- com.android.support:support-annotations:28.0.0
+|    |         \--- com.android.support:collections:28.0.0 (*)
+|    +--- com.android.support:collections:28.0.0 (*)
+|    +--- com.android.support:cursoradapter:28.0.0
+|    |    \--- com.android.support:support-annotations:28.0.0
+|    +--- com.android.support:support-core-utils:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    +--- com.android.support:documentfile:28.0.0
+|    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:loader:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    +--- android.arch.lifecycle:livedata:1.1.1
+|    |    |    |    +--- android.arch.core:runtime:1.1.1
+|    |    |    |    |    +--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    |    |    |    \--- android.arch.core:common:1.1.1 (*)
+|    |    |    |    +--- android.arch.lifecycle:livedata-core:1.1.1
+|    |    |    |    |    +--- android.arch.lifecycle:common:1.1.1 (*)
+|    |    |    |    |    +--- android.arch.core:common:1.1.1 (*)
+|    |    |    |    |    \--- android.arch.core:runtime:1.1.1 (*)
+|    |    |    |    \--- android.arch.core:common:1.1.1 (*)
+|    |    |    \--- android.arch.lifecycle:viewmodel:1.1.1
+|    |    |         \--- com.android.support:support-annotations:26.1.0 -> 28.0.0
+|    |    +--- com.android.support:localbroadcastmanager:28.0.0
+|    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    \--- com.android.support:print:28.0.0
+|    |         \--- com.android.support:support-annotations:28.0.0
+|    +--- com.android.support:support-fragment:28.0.0
+|    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    +--- com.android.support:support-core-ui:28.0.0
+|    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    |    +--- com.android.support:customview:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    +--- com.android.support:viewpager:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    +--- com.android.support:coordinatorlayout:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    +--- com.android.support:drawerlayout:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    +--- com.android.support:slidingpanelayout:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:customview:28.0.0 (*)
+|    |    |    +--- com.android.support:interpolator:28.0.0
+|    |    |    |    \--- com.android.support:support-annotations:28.0.0
+|    |    |    +--- com.android.support:swiperefreshlayout:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    +--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    |    \--- com.android.support:interpolator:28.0.0 (*)
+|    |    |    +--- com.android.support:asynclayoutinflater:28.0.0
+|    |    |    |    +--- com.android.support:support-annotations:28.0.0
+|    |    |    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    |    |    \--- com.android.support:cursoradapter:28.0.0 (*)
+|    |    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    +--- com.android.support:loader:28.0.0 (*)
+|    |    \--- android.arch.lifecycle:viewmodel:1.1.1 (*)
+|    +--- com.android.support:support-vector-drawable:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    \--- com.android.support:animated-vector-drawable:28.0.0
+|         +--- com.android.support:support-vector-drawable:28.0.0 (*)
+|         \--- com.android.support:support-core-ui:28.0.0 (*)
++--- com.facebook.react:react-native:+ -> 0.58.6
+|    +--- com.facebook.infer.annotation:infer-annotation:0.11.2
+|    |    \--- com.google.code.findbugs:jsr305:3.0.1 -> 3.0.2
+|    +--- javax.inject:javax.inject:1
+|    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    +--- com.facebook.fresco:fresco:1.10.0
+|    |    +--- com.facebook.fresco:fbcore:1.10.0
+|    |    +--- com.facebook.fresco:drawee:1.10.0
+|    |    |    +--- com.facebook.fresco:fbcore:1.10.0
+|    |    |    \--- com.facebook.fresco:imagepipeline:1.10.0
+|    |    |         +--- com.facebook.fresco:imagepipeline-base:1.10.0
+|    |    |         |    +--- com.facebook.soloader:soloader:0.5.0 -> 0.6.0
+|    |    |         |    +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |         |    \--- com.facebook.fresco:fbcore:1.10.0
+|    |    |         +--- com.facebook.soloader:soloader:0.5.0 -> 0.6.0
+|    |    |         +--- com.parse.bolts:bolts-tasks:1.4.0
+|    |    |         \--- com.facebook.fresco:fbcore:1.10.0
+|    |    +--- com.facebook.fresco:imagepipeline:1.10.0 (*)
+|    |    \--- com.facebook.soloader:soloader:0.5.0 -> 0.6.0
+|    +--- com.facebook.fresco:imagepipeline-okhttp3:1.10.0
+|    |    +--- com.squareup.okhttp3:okhttp:3.10.0 -> 3.12.1
+|    |    |    \--- com.squareup.okio:okio:1.15.0
+|    |    +--- com.facebook.fresco:fbcore:1.10.0
+|    |    \--- com.facebook.fresco:imagepipeline:1.10.0 (*)
+|    +--- com.facebook.soloader:soloader:0.6.0
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- com.squareup.okhttp3:okhttp:3.12.1 (*)
+|    +--- com.squareup.okhttp3:okhttp-urlconnection:3.12.1
+|    |    \--- com.squareup.okhttp3:okhttp:3.12.1 (*)
+|    +--- com.squareup.okio:okio:1.15.0
+|    \--- org.webkit:android-jsc:r174650
++--- project :react-native-navigation
++--- com.android.support:design:25.4.0 -> 28.0.0
+|    +--- com.android.support:support-annotations:28.0.0
+|    +--- com.android.support:support-compat:28.0.0 (*)
+|    +--- com.android.support:support-core-ui:28.0.0 (*)
+|    +--- com.android.support:support-core-utils:28.0.0 (*)
+|    +--- com.android.support:support-fragment:28.0.0 (*)
+|    +--- com.android.support:transition:28.0.0
+|    |    +--- com.android.support:support-annotations:28.0.0
+|    |    \--- com.android.support:support-compat:28.0.0 (*)
+|    +--- com.android.support:appcompat-v7:28.0.0 (*)
+|    +--- com.android.support:cardview-v7:28.0.0
+|    |    \--- com.android.support:support-annotations:28.0.0
+|    \--- com.android.support:recyclerview-v7:28.0.0
+|         +--- com.android.support:support-annotations:28.0.0
+|         +--- com.android.support:support-compat:28.0.0 (*)
+|         \--- com.android.support:support-core-ui:28.0.0 (*)
++--- com.google.firebase:firebase-core:16.0.8
+|    \--- com.google.firebase:firebase-analytics:16.4.0
+|         +--- com.google.android.gms:play-services-measurement:16.4.0
+|         |    +--- com.google.android.gms:play-services-basement:16.2.0
+|         |    |    \--- com.android.support:support-v4:26.1.0 -> 28.0.0
+|         |    |         +--- com.android.support:support-compat:28.0.0 (*)
+|         |    |         +--- com.android.support:support-media-compat:28.0.0
+|         |    |         |    +--- com.android.support:support-annotations:28.0.0
+|         |    |         |    +--- com.android.support:support-compat:28.0.0 (*)
+|         |    |         |    \--- com.android.support:versionedparcelable:28.0.0 (*)
+|         |    |         +--- com.android.support:support-core-utils:28.0.0 (*)
+|         |    |         +--- com.android.support:support-core-ui:28.0.0 (*)
+|         |    |         \--- com.android.support:support-fragment:28.0.0 (*)
+|         |    +--- com.google.android.gms:play-services-measurement-base:[16.4.0] -> 16.4.0
+|         |    |    \--- com.google.android.gms:play-services-basement:16.2.0 (*)
+|         |    +--- com.google.android.gms:play-services-measurement-impl:[16.4.0] -> 16.4.0
+|         |    |    +--- com.google.android.gms:play-services-ads-identifier:16.0.0
+|         |    |    |    \--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    |    +--- com.google.android.gms:play-services-basement:16.2.0 (*)
+|         |    |    +--- com.google.android.gms:play-services-measurement-base:[16.4.0] -> 16.4.0 (*)
+|         |    |    \--- com.google.android.gms:play-services-stats:16.0.1
+|         |    |         \--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    \--- com.google.android.gms:play-services-stats:16.0.1 (*)
+|         +--- com.google.android.gms:play-services-measurement-api:16.4.0
+|         |    +--- com.google.android.gms:play-services-basement:16.2.0 (*)
+|         |    +--- com.google.android.gms:play-services-measurement-base:[16.4.0] -> 16.4.0 (*)
+|         |    +--- com.google.android.gms:play-services-measurement-impl:[16.4.0] -> 16.4.0 (*)
+|         |    +--- com.google.android.gms:play-services-measurement-sdk-api:[16.4.0] -> 16.4.0
+|         |    |    +--- com.google.android.gms:play-services-basement:16.2.0 (*)
+|         |    |    \--- com.google.android.gms:play-services-measurement-base:[16.4.0] -> 16.4.0 (*)
+|         |    +--- com.google.android.gms:play-services-tasks:16.0.1
+|         |    |    \--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    +--- com.google.firebase:firebase-common:16.0.3 -> 16.1.0
+|         |    |    +--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    |    +--- com.google.android.gms:play-services-tasks:16.0.1 (*)
+|         |    |    \--- com.google.auto.value:auto-value-annotations:1.6
+|         |    +--- com.google.firebase:firebase-iid:17.0.3 -> 17.1.2
+|         |    |    +--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    |    +--- com.google.android.gms:play-services-stats:16.0.1 (*)
+|         |    |    +--- com.google.android.gms:play-services-tasks:16.0.1 (*)
+|         |    |    +--- com.google.firebase:firebase-common:16.1.0 (*)
+|         |    |    \--- com.google.firebase:firebase-iid-interop:16.0.1
+|         |    |         +--- com.google.android.gms:play-services-base:16.0.1
+|         |    |         |    +--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    |         |    \--- com.google.android.gms:play-services-tasks:16.0.1 (*)
+|         |    |         \--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         |    \--- com.google.firebase:firebase-measurement-connector:17.0.1
+|         |         \--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+|         \--- com.google.android.gms:play-services-measurement-sdk:16.4.0
+|              +--- com.google.android.gms:play-services-basement:16.2.0 (*)
+|              +--- com.google.android.gms:play-services-measurement-base:[16.4.0] -> 16.4.0 (*)
+|              +--- com.google.android.gms:play-services-measurement-impl:[16.4.0] -> 16.4.0 (*)
+|              \--- com.google.android.gms:play-services-measurement-sdk-api:[16.4.0] -> 16.4.0 (*)
+\--- com.google.firebase:firebase-messaging:17.6.0
+     +--- com.google.android.gms:play-services-basement:16.0.1 -> 16.2.0 (*)
+     +--- com.google.android.gms:play-services-tasks:16.0.1 (*)
+     +--- com.google.firebase:firebase-common:16.1.0 (*)
+     +--- com.google.firebase:firebase-iid:[17.1.2] -> 17.1.2 (*)
+     \--- com.google.firebase:firebase-measurement-connector:17.0.1 (*)
+
+debugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: debugAndroidTest
+1 actionable task: 1 executed
