@@ -35,6 +35,7 @@ class Login extends React.Component {
     password: '',
     isSigningIn: false,
     showPass: false,
+    forgotPassPress: false
     //hasError: ''
   }
 
@@ -70,6 +71,33 @@ class Login extends React.Component {
         mailError: '',
         isSigningIn: true
       }, () => { this.props.actions.signinUser(user) })
+    }
+
+
+  }
+
+  resetPass = () => {
+
+    const mailError = validate('email', this.state.mail)
+    const passwordError = validate('password', this.state.password)
+
+    this.setState({
+      mailError: mailError,
+      passwordError: passwordError
+    })
+
+    if (!mailError && !passwordError) {
+      const user = {
+        password: this.state.password,
+        email: this.state.mail
+      }
+      this.setState({
+        //mail: '',
+        //password: '',
+        passwordError: '',
+        mailError: '',
+        isSigningIn: true
+      }, () => { this.props.actions.forgotPass(user) })
     }
 
 
@@ -173,7 +201,7 @@ class Login extends React.Component {
             containerStyle={styles.inputContainer}
             inputContainerStyle={styles.input}
             onChangeText={val => this.onChangeText('password', val)}
-            placeholder='Password'
+            placeholder={this.state.forgotPassPress ? 'Set New Password' : 'Password'}
             value={this.state.password}
             onBlur={() => {
               this.setState({
@@ -211,20 +239,58 @@ class Login extends React.Component {
             errorMessage={this.state.passwordError ? this.state.passwordError : null}
           />
         </View>
-        {this.state.isSigningIn ?
+        {/*this.state.isSigningIn ?
           <View style={styles.progressBar}>
             <ProgressBar color={'white'} />
             <Toast visible={this.props.message ? true : false} message={this.props.message} />
           </View>
-          :
+          :*/
           <View style={styles.buttonContainer}>
-            <TouchableOpacity style={styles.button} onPress={this.submit}>
+            <TouchableOpacity style={styles.button}
+              onPress={() => {
+                if (this.state.forgotPassPress) {
+                  this.resetPass()
+                } else {
+                  this.submit()
+                }
+              }
+              }>
               <View style={styles.buttonInner}>
-                <Text style={styles.buttontext}>Login</Text>
+                {
+                  this.state.forgotPassPress
+                    ?
+                    <Text style={styles.buttontext}>Reset Password</Text>
+                    :
+                    <Text style={styles.buttontext}>Login</Text>
+                }
+
               </View>
             </TouchableOpacity>
           </View>
         }
+
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity
+            style={this.state.forgotPassPress ? styles.buttonDisabled : styles.button}
+            //disabled={this.state.forgotPassPress}
+            onPress={() => {
+              if (this.state.forgotPassPress) {
+                this.setState({
+                  forgotPassPress: false
+                })
+              } else {
+                this.setState({
+                  forgotPassPress: true,
+                  isSigningIn: false
+                })
+              }
+            }}>
+            <View style={styles.buttonInner}>
+              <Text style={styles.buttontext}>Forgot Password?</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+        <Toast visible={this.props.message ? true : false} message={this.props.message} />
       </View>
     )
   }

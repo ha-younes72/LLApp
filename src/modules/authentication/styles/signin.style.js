@@ -73,6 +73,18 @@ const styles = StyleSheet.create(
       borderLeftWidth: 2,
       borderLeftColor: 'white',
     },
+    buttonDisabled: {
+      height: 50,
+      width: '100%',
+      backgroundColor: 'gray',
+      justifyContent: 'center',
+      //alignItems: 'center',
+      //margin: 30,
+      //marginBottom: 60,
+      //flex:1,
+      borderLeftWidth: 2,
+      borderLeftColor: 'red',
+    },
     buttonInner: {
       justifyContent: 'center',
       alignItems: 'center',

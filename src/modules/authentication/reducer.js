@@ -30,6 +30,18 @@ export default function (state = initialState.auth, action) {
                 message: action.message,
             };
 
+        case types.FORGOT_PASS_SUCCESS:
+            return {
+                ...state,
+                message: action.message
+            };
+
+        case types.FORGOT_PASS_FAIL:
+            return {
+                ...state,
+                message: action.message,
+            };
+            
         case types.CLEAR_AUTH_ERROR:
             return {
                 ...state,

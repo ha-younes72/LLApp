@@ -98,6 +98,44 @@ _signupAsync = async (user) => {
 		})
 };
 
+// Forgot Password
+export function forgotPassSuccess(res) {
+	return {
+		type: types.FORGOT_PASS_SUCCESS,
+		message: res.message
+		//user: res.userInfo,
+		//token: res.token
+	};
+}
+
+export function forgotPassFail(res) {
+	return {
+		type: types.FORGOT_PASS_FAIL,
+		message: res.message
+	};
+}
+
+export function forgotPass(user) {
+	return function (dispatch) {
+		console.log(API_URL + 'users/forgottpass')
+		axios.post(API_URL + 'users/forgottpass', {
+			//fname: user.fname,
+			//lname: user.lname,
+			password: user.password,
+			email: user.email
+		})
+			.then(res => {
+				console.log("ForgotPass Response: ", res.data);
+				dispatch(forgotPassSuccess(res.data));
+				//_signupAsync(user)
+			})
+			.catch(error => {
+				dispatch(forgotPassFail(error.response.data));
+				console.log("Error ForgettingPass: ", error.response.data); //eslint-disable-line
+			});
+	};
+}
+
 
 // Error Clear
 export function clearErrorSUCCESS() {

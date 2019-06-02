@@ -17,6 +17,9 @@ export const SIGNIN_USER_FAIL = 'SIGNIN_USER_FAIL'
 // Sign up
 export const SIGNUP_USER_SUCCESS = 'SIGNUP_USER_SUCCESS'
 export const SIGNUP_USER_FAIL = 'SIGNUP_USER_FAIL'
+// Forgot Pass
+export const FORGOT_PASS_SUCCESS = 'FORGOT_PASS_SUCCESS'
+export const FORGOT_PASS_FAIL = 'FORGOT_PASS_FAIL'
 // General
 export const CLEAR_AUTH_ERROR = 'CLEAR_AUTH_ERROR'
 
